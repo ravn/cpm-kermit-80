@@ -1,0 +1,2 @@
+*.asm text eol=crlf
+*.hex text eol=crlf

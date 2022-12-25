@@ -38,12 +38,18 @@ Bugfixes are also being applied as they are found.
 
 #### Build Requirements
 
-Building requires the 'vcpm', with M80, and 'unix2dos' commands.
-
-'unix2dos' is normally part of the "dos2unix" package on
-most Linux distributions.
+Building requires the 'vcpm', with M80 command.  Git checks out ASM and HEX files with
+the expected CR+LF line endings.
 
 'vcpm' is obtained and setup as described in https://github.com/durgadas311/cpnet-z80.
 M80 (MicroSoft MACRO-80 Assembler and Linker) is required to be installed
 in the virtual A: drive of 'vcpm' (rather, one of the drives configured in the search path).
 One source for this package is https://www.cpm80.com/.
+
+## Videos
+
+Douglas Crawford created a few videos showing actual 8-bit hardware working with Kermit-80:
+
+* Building (takes about 10 minutes):  https://www.youtube.com/watch?v=vAtSd4ygx2s
+* Running: https://www.youtube.com/watch?v=rN-qm-gDZcc
+
